@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#intro {
+    background-image: url(../src/img/fondo-introduccion.jpg);
+    height: 40vh;
+}
+
+.mask{
+    height: 40vh;
+}
