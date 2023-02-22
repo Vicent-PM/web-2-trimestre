@@ -10,3 +10,12 @@
 .mask{
     height: 40vh;
 }
+
+.card {
+    height: 10vh;
+}
+
+.card img{
+    height: 300px;
+    width: 100%;
+}
