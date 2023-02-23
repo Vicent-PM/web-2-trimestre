@@ -23,3 +23,17 @@
 p{
     text-align: justify;
 }
+
+.nosotros img{
+    height: 500px;
+}
+
+@media (max-width: 600px) {
+    .nosotros img{
+        height: 250px;
+    }
+
+    iframe{
+        height: 250px;
+    }
+}
