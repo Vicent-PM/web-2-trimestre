@@ -17,23 +17,22 @@
 
 .card img{
     height: 300px;
-    width: 100%;
 }
 
 p{
     text-align: justify;
 }
 
-.nosotros img{
-    height: 500px;
-}
+@media (max-width: 767px) {
 
-@media (max-width: 600px) {
     .nosotros img{
-        height: 250px;
+        width: 100%;
     }
+
 
     iframe{
         height: 250px;
     }
+
+
 }
