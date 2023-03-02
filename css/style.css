@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+.navbar-custom{
+    background-color: lightblue;
+}
+
 #intro {
     background-image: url(../src/img/fondo-introduccion.jpg);
     height: 40vh;
