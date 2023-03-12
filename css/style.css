@@ -2,27 +2,33 @@
     margin: 0;
 }
 
+/* Esta es la imagen de inicio, junto con su altura */
 #intro {
     background-image: url(../src/img/fondo-introduccion.jpg);
     height: 40vh;
 }
 
+/* Aqui defino la altura de la mascara de la imagen de inicio */
 .mask{
     height: 40vh;
 }
 
+/* Aqui defino la altura de todas las cards de la pagina */
 .card {
     height: 10vh;
 }
 
+/* Aqui defino la altura de las imagenes de las cards */
 .card img{
     height: 30vh;
 }
 
+/* Alineo todo el texto en modo justificar */
 p{
     text-align: justify;
 }
 
+/* Y Aqui añado un breakpoint opciona a parte de los de boostrap para corregir errores en las imagenes para dispositivos pequeños */
 @media (max-width: 767px) {
 
     .nosotros img{

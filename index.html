@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cafeteria Dolce Vita</title>
+    <!-- Este es un script que sirve para añadir iconos, lo he utilizado porque lo encontre y me parecio bastante bueno para las redes sociales en el footer -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,7 +13,9 @@
 </head>
 
 <body>
+    <!-- Aqui empieza la pagina, este es el container principal que engloba toda la pagina -->
     <div class="container-fluid" id="inicio">
+        <!-- Aqui empieza el script del navbar cogido de la pagina de boostrap -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <a class="navbar-brand mx-3" href="#inicio">Dolce Vita</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -27,6 +30,8 @@
                 </div>
             </div>
         </nav>
+        <!-- Termina el script del navbar -->
+        <!-- Esto es la imagen del principio junto con la mascara que hace que se oscurezca la imagen, tambien cogida de boostrap -->
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 p-0 mx-auto">
                 <div id="intro" class="bg-image shadow-2-strong">
@@ -45,6 +50,8 @@
                 </div>
             </div>
         </div>
+        <!-- Termina la imagen del principio junto con la mascara -->
+        <!-- Empieza la carta, esta compuesta de card (cogidas de la pagina de boostrap), las he elegido porque se puede poner imagen y texto y queda bien maquetado -->
         <div class="row">
             <div id="carta">
                 <div class="col-sm-12 col-md-12 col-lg-12 mx-auto">
@@ -122,72 +129,76 @@
                 </div>
             </div>
         </div>
+        <!-- Termina la carta -->
+        <!-- Empieza el apartado sobre nosotros, esta compuesto de dos cards como las de antes pero poniendo la imagen a la izquierda y el texto a la derecha y viceversa, tambien cogidas de la pagina de boostrap -->
         <div class="row border-top border-dark my-3" id="sobre-nosotros">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <h2 class="mb-3 text-center py-4">
-                        <span class="d-block">Sobre</span>
-                        <span class="d-block">Nosotros</span>
-                    </h2>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 my-3">
-                        <div class="card border-0">
-                            <div class="row nosotros">
-                                <div class="col-md-6 d-flex align-items-center justify-content-center">
-                                    <img src="src/img/local.jpg" class="img-fluid" alt="...">
-                                </div>
-                                <div class="col-md-6 d-flex align-items-center justify-content-center">
-                                    <div class="card-body text-justify">
-                                        <h5 class="card-title">Nuestro local</h5>
-                                        <p class="card-text">Bienvenidos a nuestra cafetería, un lugar acogedor y
-                                            lleno de aroma a café recién hecho. Aquí puedes disfrutar de una amplia
-                                            variedad de bebidas calientes y frías, incluyendo nuestro delicioso café
-                                            recién tostado y molido, preparado con gran cuidado y esmero por nuestro
-                                            equipo de baristas altamente capacitados. También ofrecemos una
-                                            selección de pasteles, bocadillos y comidas ligeras para acompañar tu
-                                            bebida favorita. Nuestro ambiente es ideal para relajarte y disfrutar de
-                                            una buena conversación o trabajar en un proyecto importante, con acceso
-                                            gratuito a Wi-Fi y enchufes para tus dispositivos electrónicos. ¡Ven a
-                                            visitarnos y déjanos complacerte con nuestro excelente servicio y
-                                            atención al detalle!</p>
-                                    </div>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h2 class="mb-3 text-center py-4">
+                    <span class="d-block">Sobre</span>
+                    <span class="d-block">Nosotros</span>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 my-3">
+                    <div class="card border-0">
+                        <div class="row nosotros">
+                            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                                <img src="src/img/local.jpg" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                                <div class="card-body text-justify">
+                                    <h5 class="card-title">Nuestro local</h5>
+                                    <p class="card-text">Bienvenidos a nuestra cafetería, un lugar acogedor y
+                                        lleno de aroma a café recién hecho. Aquí puedes disfrutar de una amplia
+                                        variedad de bebidas calientes y frías, incluyendo nuestro delicioso café
+                                        recién tostado y molido, preparado con gran cuidado y esmero por nuestro
+                                        equipo de baristas altamente capacitados. También ofrecemos una
+                                        selección de pasteles, bocadillos y comidas ligeras para acompañar tu
+                                        bebida favorita. Nuestro ambiente es ideal para relajarte y disfrutar de
+                                        una buena conversación o trabajar en un proyecto importante, con acceso
+                                        gratuito a Wi-Fi y enchufes para tus dispositivos electrónicos. ¡Ven a
+                                        visitarnos y déjanos complacerte con nuestro excelente servicio y
+                                        atención al detalle!</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-12 my-3">
-                        <div class="card border-0">
-                            <div class="row">
-                                <div class="col-md-6 d-flex align-items-center justify-content-center">
-                                    <div class="card-body text-justify">
-                                        <h5 class="card-title">Nuestro equipo</h5>
-                                        <p class="card-text">
-                                            Nuestros trabajadores son el corazón de nuestra cafetería, dedicados a
-                                            brindar un servicio excepcional a cada uno de nuestros clientes. Cada
-                                            uno de ellos es un barista altamente capacitado, experto en la
-                                            preparación del café y otras bebidas calientes y frías que ofrecemos.
-                                            Además, nuestros trabajadores son personas amables, atentas y siempre
-                                            dispuestas a ayudarte a elegir la bebida o el bocadillo perfecto para
-                                            satisfacer tus necesidades y gustos.</p>
-                                        <p class="card-text">
-                                            Nuestros trabajadores son el corazón y el alma de
-                                            nuestra cafetería, dedicados a brindar una experiencia única y
-                                            satisfactoria a cada uno de nuestros clientes, ya sea que estén buscando
-                                            una bebida rápida para llevar o un lugar tranquilo para relajarse y
-                                            disfrutar de una buena conversación.
-                                        </p>
-                                    </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 my-3">
+                    <div class="card border-0">
+                        <div class="row">
+                            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                                <div class="card-body text-justify">
+                                    <h5 class="card-title">Nuestro equipo</h5>
+                                    <p class="card-text">
+                                        Nuestros trabajadores son el corazón de nuestra cafetería, dedicados a
+                                        brindar un servicio excepcional a cada uno de nuestros clientes. Cada
+                                        uno de ellos es un barista altamente capacitado, experto en la
+                                        preparación del café y otras bebidas calientes y frías que ofrecemos.
+                                        Además, nuestros trabajadores son personas amables, atentas y siempre
+                                        dispuestas a ayudarte a elegir la bebida o el bocadillo perfecto para
+                                        satisfacer tus necesidades y gustos.</p>
+                                    <p class="card-text">
+                                        Nuestros trabajadores son el corazón y el alma de
+                                        nuestra cafetería, dedicados a brindar una experiencia única y
+                                        satisfactoria a cada uno de nuestros clientes, ya sea que estén buscando
+                                        una bebida rápida para llevar o un lugar tranquilo para relajarse y
+                                        disfrutar de una buena conversación.
+                                    </p>
                                 </div>
-                                <div class="col-md-6 nosotros d-flex align-items-center justify-content-center">
-                                    <img src="src/img/equipo.jpg" class="img-fluid" alt="...">
-                                </div>
+                            </div>
+                            <div class="col-md-6 nosotros d-flex align-items-center justify-content-center">
+                                <img src="src/img/equipo.jpg" class="img-fluid" alt="...">
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
+        <!-- Termina la carta -->
+        <!-- Empieza la parte de contaco, consiste en un formulario cogido de boostrap y he añadido apartados en relacion a la reserva de una mesa, tambien integra un mapa de donde esta la cafeteria -->
         <div class="row border-top border-dark" id="contacto">
             <div>
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -227,18 +238,24 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row my-3">
             <div class="col-sm-12">
                 <div class="mx-auto">
+                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3135.0626012228718!2d-3.5153671562706212!3d38.208443280037756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6e9690ddd054db%3A0x4ff3e5aac8579063!2sCafeter%C3%ADa%20Dolce%20Vita!5e0!3m2!1ses!2ses!4v1677147980793!5m2!1ses!2ses"
+                        target="mapa">Vilches</a>
+                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.6039580138763!2d-3.7884054843478148!3d37.775883519868046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6dd709bd3da9bb%3A0x4d34a20ea279fd83!2sEl%20Corte%20Ingl%C3%A9s%20Ja%C3%A9n%20y%20Linares!5e0!3m2!1ses!2ses!4v1674728882727!5m2!1ses!2ses"
+                        target="mapa">Jaén</a>
                     <div class="embed-responsive embed-responsive-16by9 mt-3">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3135.0626012228718!2d-3.5153671562706212!3d38.208443280037756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6e9690ddd054db%3A0x4ff3e5aac8579063!2sCafeter%C3%ADa%20Dolce%20Vita!5e0!3m2!1ses!2ses!4v1677147980793!5m2!1ses!2ses"
                             width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            referrerpolicy="no-referrer-when-downgrade" name="mapa"></iframe>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Termina la parte de contacto -->
+        <!-- Este es el footer, cogido de boostrap, con la ayuda de varios tipos de footer he conseguido hacer este -->
         <footer class="bg-dark text-light py-3">
             <div class="container">
                 <div class="row">
@@ -270,7 +287,9 @@
                 </div>
             </div>
         </footer>
+        <!-- Termina el footer -->
     </div>
+    <!-- Termina la pagina -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
